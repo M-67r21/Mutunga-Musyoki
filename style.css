@@ -1,0 +1,180 @@
+*{
+    background-color: #c0c3cc;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+:root{
+    --text-color1:#074d52;
+    --text-color2:#ffffff;
+    --font-size1: 1.7rem;
+    --font-size2: 1rem;
+    --font-size3: 0.7rem;
+}
+ 
+
+label{
+    font-size: var(--font-size1);
+    color: var(--text-color1);
+    
+}
+ .navbar {
+    justify-content: center;
+    /* background-color: rgb(168, 199, 219); */
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #074d52;
+    
+}
+/* .navbar-brand{
+    font-size: var(--font-size1);
+    color: var(--text-color1);
+
+} */
+
+.navbar-nav{
+    color: #FFFFFF; 
+    font-size: var(--font-size2);
+}
+.nav-link{
+    color: var(--text-color2);
+}
+
+.nav-link:hover{
+    color: var(--text-color1);
+}
+/* .nav-link:active{
+    color: var(--text-color2);
+} */
+.navbar-toggler-icon{
+    background-color: var(--text-color1);
+}
+.custom-icon-color{
+    color: var(--text-color1);
+}
+.no-margin-bottom {
+    margin-bottom: 0; /* Remove bottom margin for the specific class */
+}
+
+.h3{
+    color: var(--text-color1);
+    font-size: 2rem; 
+    
+    }
+
+.h2{
+    color: var(--text-color1); 
+    font-size: 3rem;   
+}
+
+.h1{
+    color: var(--text-color1);
+    font-size: 4rem;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.column {
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Adjust the height as needed */
+    padding-top: 20vh;
+}
+
+.col-lg-6{
+    padding-bottom: 2vh;
+}
+.btn{
+    font-size: var(--font-size1);
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+
+.img-thumbnail{
+    /* margin-top: 20vh; */
+    /* border: 5px solid var(--text-color1); */
+}
+.about{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center; 
+    color: var(--text-color2);
+}
+.about h2{
+    font-size: var(--font-size1);
+}
+.about p{
+    margin-left: 10vh;
+    font-size: 14px;
+}
+.about button{
+    font-size: var(--font-size2);
+}
+h2{
+    color: var(--text-color1);
+    font-size: var(--font-size1);
+}
+
+.tab {
+    overflow: hidden;
+    color: var(--text-color2);
+    
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: var(--font-size1);
+    color: var(--text-color2);
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: var(--text-color1);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    color: var(--text-color1);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    margin-top: 2vh;
+  }
+
+.description{
+    color: var(--text-color2);
+    font-size: var(--font-size2);
+}
+h3{
+    color: var(--text-color1);
+    font-size: var(--font-size1);
+}
+
+p{
+    color: var(--text-color2);
+    
+}
+
+.fa{
+    color: var(--text-color1);
+}
+
+@media (max-width: 450px) {
+    .p-3{
+        font-size: 0.2rem;
+    }
+}
