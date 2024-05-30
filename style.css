@@ -109,8 +109,8 @@ label{
     font-size: var(--font-size1);
 }
 .about p{
-    margin-left: 10vh;
     font-size: 14px;
+    margin-left: 3rem;
 }
 .about button{
     font-size: var(--font-size2);
@@ -174,7 +174,14 @@ p{
 }
 
 @media (max-width: 450px) {
-    .p-3{
-        font-size: 0.2rem;
+    .connect{
+        font-size: 1rem;
+    }
+    .about p{
+        text-align: center;
+        margin-left: 0;
+    }
+    .tabcontent {
+        margin: 0;
     }
 }
