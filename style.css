@@ -181,7 +181,7 @@ p{
         text-align: center;
         margin-left: 0;
     }
-    .tabcontent {
-        margin: 0;
+    .tabcontent .row{
+        border-bottom: .1rem solid black;
     }
 }
