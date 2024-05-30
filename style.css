@@ -184,4 +184,14 @@ p{
     .tabcontent .row{
         border-bottom: .1rem solid black;
     }
+    .lets{
+        border-bottom: .1rem solid black;
+        text-align: left;
+        padding: 0;
+        margin-left: 0 !important;
+    }
+    .email{
+        margin-top: 0;
+        padding: 0;
+    }
 }
