@@ -1,5 +1,5 @@
 *{
-    background-color: #969287;
+    background-color: #ede8f5;
     margin: 0;
     padding: 0;
     
@@ -7,8 +7,8 @@
 
 
 :root{
-    --text-color1:#000303;
-    --text-color2:#ffffff;
+    --text-color1:#3a53e4;
+    --text-color2:#413131;
     --font-size1: 1.7rem;
     --font-size2: 1rem;
     --font-size3: 0.7rem;
